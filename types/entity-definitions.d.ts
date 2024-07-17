@@ -467,6 +467,12 @@ export type AvailableEntities = [
     subname: "Skills"
     type: entities.ResourceSkill
   },
+  {
+    name: "ResourceTimeOffApprovers"
+    childOf: "Resources"
+    subname: "TimeOffApprovers"
+    type: entities.ResourceTimeOffApprover
+  },
   { name: "Roles"; type: entities.Role },
   {
     name: "SalesOrders"
