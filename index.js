@@ -193,6 +193,7 @@ class AutotaskRestApi {
       {name:'ResourceRoleQueues', childOf: 'Resources', subname: 'RoleQueues'},
       {name:'ResourceServiceDeskRoles', childOf: 'Resources', subname: 'ServiceDeskRoles'},
       {name:'ResourceSkills', childOf: 'Resources', subname: 'Skills'},
+      {name:'ResourceTimeOffApprovers', childOf: 'Resources', subname: 'TimeOffApprovers'},
       {name:'Roles'},
       {name:'SalesOrders', childOf: 'Opportunities', subname: 'SalesOrders'},
       {name:'Services'},
