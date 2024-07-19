@@ -473,6 +473,12 @@ export type AvailableEntities = [
     subname: "TimeOffApprovers"
     type: entities.ResourceTimeOffApprover
   },
+  {
+    name: "ResourceTimeOffRequests"
+    childOf: "Resources"
+    subname: "TimeOffRequests"
+    type: entities.TimeOffRequest
+  },
   { name: "Roles"; type: entities.Role },
   {
     name: "SalesOrders"
